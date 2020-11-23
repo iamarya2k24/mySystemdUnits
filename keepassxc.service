@@ -1,5 +1,5 @@
 [Unit]
-Description=KeepassXC Service
+Description=KeepassXC User Service
 
 [Service]
 LimitNOFILE=1024
@@ -9,10 +9,6 @@ RestartSec=10
 startLimitIntervalSec=60
 Environment=DISPLAY=:0
 ExecStart=/home/navneet/Applications/KeePassXC-2.6.1-x86_64_f1ed4bd2dd2af53d67e5916264550f9d.AppImage
-
-#PermissionsStartOnly=true
-#StandardOutput=syslog
-#StandardError=syslog
 
 [Install]
 WantedBy=default.target
