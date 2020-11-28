@@ -1,5 +1,6 @@
 [Unit]
 Description=KeepassXC User Service
+After=graphical.target
 
 [Service]
 LimitNOFILE=1024
